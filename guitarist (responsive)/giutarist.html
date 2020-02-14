@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Musician</title>
+</head>
+    <body>
+        <header>
+            <a href="#" class="logo">Muza</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <section class="hero">
+                <div class="inner">
+                    <div class="clipper">
+                        <h1>Go Musician</h1>
+                    </div>
+    
+                    <div class="anim-panel">
+                        <p>Start touring all over the place and melting the hearts of girls.</p>
+    
+                        <a href="#" class="read-btn primary">Get Famous</a>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="sidebar">
+                <div class="inner">
+                    <div class="clipper">
+                        <h2>Featured</h2>
+                    </div>
+                    <div class="anim-panel">
+                        <p class="pp1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+                        <a href="#" class="read-btn">Read More</a>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="subscribe">
+                <div class="inner">
+                    <div class="clipper">
+                        <h2>Subscribe</h2>
+                    </div>
+                    <div class="anim-panel">
+                        <p class="pp2">Get the latest updates about this website and stuff.</p>
+                        <input placeholder="Email Address" type="text" name="email">
+                        <button class="cta">Subscribe Now</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+        <script>
+
+            document.addEventListener("DOMContentLoaded", function(event) {
+
+         // wait until window is loaded - meaning all images, stylesheets, js, fonts, media assets, and links
+            window.addEventListener("load", function(e) {
+
+            document.body.style.display = 'block';
+            var tl = new TimelineMax();
+
+            tl.staggerFrom('section', 2, {
+            opacity: 0,
+            scale: .5,
+            ease: Power2.easeOut
+            }, 0.2)
+
+            // show .from() initially
+            tl.staggerFrom('h1, h2', .5, {
+            opacity: 0,
+            y: -40,
+            ease: Power2.easeInOut
+            }, 0.2, "-=2")
+
+            tl.staggerFrom('.anim-panel', 1, {
+            opacity: 0,
+            y: -40,
+            ease: Power2.easeInOut
+            }, 0.2, "-=1.5")
+
+            }, false);
+            });
+
+        </script>
+    </body>
+    
+</html>
