@@ -1,0 +1,139 @@
+body {
+  background: url(../img/back.jpg);
+  margin: 0;
+  font-family: monospace;
+  background-size: cover;
+}
+
+.container {
+  background: #fff;
+  margin: 20px;
+  height: 100%;
+  width: 55%;
+  border: 4px solid royalblue;
+}
+
+.row {
+  padding: 30px;
+}
+
+.title {
+  line-height: 15px;
+}
+
+.logo {
+  width: 150px;
+  margin: 5px;
+  margin-right: 0px;
+  float: right;
+}
+
+h3 {
+  float: left;
+  margin: 5px;
+  color: #2E77E4;
+}
+
+p {
+  font-family: 'Lato';
+  line-height: 11px;
+}
+
+.from {
+  display: inline-block;
+}
+
+.from h3 {
+  margin: 15px;
+  margin-left: 0;
+}
+
+.to {
+  display: table;
+  margin-top: 20px;
+}
+
+.to h3 {
+  margin: 15px;
+  margin-left: 0;
+}
+
+.to p {
+  margin-left: 15px;
+}
+
+.invo-info {
+  float: right;
+}
+
+.sub-title {
+  float: right;
+  margin: 10px;
+}
+
+.sub-p {
+  float: right;
+  margin: 5px;
+  text-align: right;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+}
+
+table, th, td {
+  padding: 15px;
+  border-bottom: outset;
+}
+thead {
+  border-top: 3px solid #2E77E4;
+}
+
+td {
+  height: 50px;
+  text-align: center;
+}
+
+.total {
+  display: flow-root;
+  padding-right: 5px;
+}
+
+.sum {
+  float: right;
+  margin-top: 30px;
+}
+
+.txt {
+  float: left;
+  margin: 8px;
+  margin-right: 50px;
+}
+
+.nmb {
+  float: right;
+  text-align: right;
+}
+
+.total-sum {
+  border: 3px solid yellow;
+  margin-top: 30px;
+}
+
+.total-sum p {
+  margin-right: 10px;
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.thanks {
+  margin-top: 50px;
+  display: grid;
+  text-align: center;
+  font-family: unset;
+  -webkit-text-emphasis: open;
+}

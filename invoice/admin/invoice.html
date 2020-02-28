@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ingress Invoice</title>
+    <link rel="stylesheet" href="css/invoice.css">
+  </head>
+  <body>
+
+    <aside>
+      <div class="logo">
+        <a href="invoice.html"><img src="img/ingress-white.png" alt=""></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="invoice.html"><img src="img/bill.png" alt=""></a></li>
+          <li><a href="to.html"><img src="img/to.png" alt="" style="width: 30px;margin: 10px;"></a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <div class="main">
+      <h1>INVOICE</h1>
+      <div class="save">
+        <div class="btn">
+          <button type="button" class="cancel-btn">Cancel</button>
+          <button type="button" class="save-btn">Save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div style="margin: 20px;">
+
+          <div class="status">
+            <label for="status"><b>Status</b></label>
+            <select id="status">
+              <option value="active">Active</option>
+              <option value="saab">Disactive</option>
+            </select>
+          </div>
+          <div class="date">
+            <label for="invoice">Invoice #</label>
+            <input type="text" name="invoice" value="">
+            <label for="date">Date</label>
+            <input type="text" data-role="calendarpicker" value="2020/09/21" data-format="%d %b %Y">
+            <label for="due">- Due Date</label>
+            <input type="text" data-role="calendarpicker" value="2020/12/21" data-format="%d %b %Y">
+          </div>
+
+          <div class="table">
+            <table>
+              <h2>Description</h2>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Description</th>
+                  <th>Total amount</th>
+                </tr>
+              </thead>
+              <tr>
+                <td>1</td>
+                <td>OCA</td>
+                <td>200</td>
+                <td>1</td>
+                <td>Java course</td>
+                <td>200</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="total">
+            <p>Sub total <span>200</span> azn</p>
+            <p>Discount <span>50</span> azn</p>
+            <p><b>TOTAL <span>150</span> AZN</b></p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>

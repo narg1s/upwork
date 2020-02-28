@@ -1,0 +1,138 @@
+body {
+  background: #1E373B;
+  margin: 0;
+  color: #494747;
+  height: 100%;
+  font-family: 'Lato';
+}
+
+.number {
+  float: right;
+}
+
+.row {
+  background: #fff;
+  margin: 50px;
+  height: 1000px;
+  padding: 35px;
+}
+
+.container {
+  background: #FFB72B;
+  height: 25%;
+  left: 0
+  right:0
+  bottom: 0;
+}
+.title {
+  float: right;
+  padding: 20px;
+  margin-top: -10px;
+}
+
+.to {
+  padding: 20px;
+  margin-top: 170px;
+  display: inline-flex;
+
+}
+
+.name h1 {
+  padding: 20px;
+  color: grey;
+}
+
+h2 {
+  color: #A17726;
+}
+.client {
+  float: right;
+  margin-left: 45px;
+}
+
+.table {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+table {
+  padding: 10px;
+  width: 100%;
+  border-top: 3px solid #1E373B;
+}
+
+table, th {
+  padding: 10px;
+  border-bottom: 1px solid #1E373B;
+}
+
+td {
+  height: 50px;
+  text-align: center;
+}
+
+.total {
+  float: right;
+  margin: 30px;
+}
+
+.txt {
+  float: left;
+  text-align: left;
+  margin-right: 120px;
+}
+
+.nmb {
+  float: right;
+  margin: 5px;
+  text-align: right;
+  font-size: 18px;
+}
+
+.line {
+  border-left: 3px solid #1E373B;
+  height: 40px;
+  margin: 40px;
+  position: absolute;
+}
+
+.contact_info {
+  padding: 140px 0;
+  text-align: center;
+  float: right;
+  margin-right: -200px;
+}
+.contact_info ul {
+  margin: 0;
+  padding: 0;
+}
+.contact_info ul li {
+  display: table-cell;
+  width: 33.33%;
+  position: relative;
+  padding: 0 40px;
+}
+.contact_info ul li span {
+  opacity: 0.7;
+}
+.contact_info ul li h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+.contact_info ul li i {
+  font-size: 46px;
+  font-size: 2.875rem;
+  margin-bottom: 10px;
+}
+.cont {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.clearfix::after {
+  display:block;
+  clear:both;
+  content:""
+}
